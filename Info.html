@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin tài khoản</title>
+    <!-- Load CSS chung -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Load CSS riêng -->
+    <link rel="stylesheet" href="assets/css/info.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header giống trang chính -->
+    <div class="taskbar">
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="assets/images/logo.png" alt="Logo" class="logo">
+            </a>
+        </div>
+        <!-- ... (Giống phần header của index.html) ... -->
+    </div>
+
+    <!-- Nội dung chính -->
+    <div class="info-container custom-frame">
+        <h1><i class="fas fa-user-circle"></i> THÔNG TIN TÀI KHOẢN</h1>
+
+        <div class="info-grid">
+            <!-- Khối thông tin cá nhân -->
+            <div class="info-card">
+                <h2><i class="fas fa-id-card"></i> Cá nhân</h2>
+                <p><strong>Tên:</strong> Nguyễn Văn A</p>
+                <p><strong>Email:</strong> user@example.com</p>
+                <button class="edit-btn">Chỉnh sửa</button>
+            </div>
+
+            <!-- Khối hoạt động -->
+            <div class="info-card">
+                <h2><i class="fas fa-history"></i> Hoạt động</h2>
+                <ul>
+                    <li>Đã đọc 15 truyện</li>
+                    <li>30 bình luận</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Nút quay lại -->
+        <a href="index.html" class="back-btn">
+            <i class="fas fa-arrow-left"></i> Về trang chủ
+        </a>
+    </div>
+
+    <!-- Load JavaScript -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
